@@ -1,0 +1,33 @@
+/* @media (max-width: 767px) {
+  .HgVq , .HzVm {
+    display: block !important;
+  }
+} */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+/* Plano de fundo do corpo principal */
+.Wykg {
+  color: white;
+  background-color: #141c2f;
+}
+/* Plano de fundo do corpo principal */
+.HBeV {
+  color: #141c2f;
+  background-color: white;
+}
+/* Plano de fundo do component de resultado */
+.N4B3 {
+  background-color: #1f2a48;
+}
+/* Plano de fundo do component de resultado */
+.UW3K {
+  background-color: white;
+}
+/* .HgVq , .HzVm {
+  display: hidden !important;
+} */
