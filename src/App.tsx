@@ -29,7 +29,7 @@ export default function App () {
       setAvatar(response.data.avatar_url)
       setName(response.data.name)
       setLogin(response.data.login)
-      setJoined(`Desde ${date.getDay()} ${month[date.getMonth()]} ${date.getFullYear()}`)
+      setJoined(`Desde ${date.getDay()} de ${month[date.getMonth()]} ${date.getFullYear()}`)
       setBio(response.data.bio)
       setRepos(response.data.public_repos)
       setFollowers(response.data.followers)
