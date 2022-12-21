@@ -33,7 +33,7 @@ export const Found = (props: iFound) => {
         </Personal>
       </FlexBox>
       <FlexBox>
-        { !props.bio && (<Bio>Esse perfil não tem bibliografia</Bio>) }
+        { !props.bio && (<Bio>Esse perfil não tem biografia</Bio>) }
         { props.bio && (<Bio>{ props.bio }</Bio>) }
       </FlexBox>
       <FlexBox>
