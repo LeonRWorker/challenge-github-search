@@ -17,7 +17,7 @@ export const Content = styled.div`
         width: 760px;
     }
     @media (min-width: 1024px) {
-        width: 540px;
+        width: 700px;
     }
 `
 export const Text = styled.span`
