@@ -6,9 +6,10 @@ export const FlexBox = styled.div`
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-star;
     :nth-child(2) {
         margin-top: 20px;
+        width: 77.3% !important;
     }
 `
 export const Asset = styled.img`
@@ -20,7 +21,7 @@ export const Asset = styled.img`
 `
 export const Personal = styled.div`
     gap: 20px;
-    width: 70%;
+    width: 100%;
     display: flex;
     height: 100px;
     flex-direction: row;
@@ -142,19 +143,15 @@ export const Container = styled.div`
         }
         :nth-child(3) {
             gap: 50px;
-            width: 70%;
+            width: 100%;
             margin-bottom: 20px;
         }
         :nth-child(4) {
             gap: 30px;
-            width: 70%;
+            width: 100%;
         }
     }
     @media (max-width: 767px) {
-        ${FlexBox}:nth-child(4) {
-            gap: 10px;
-            flex-direction: column;
-        }
         ${FlexBox}:nth-child(3) {
             ${Boxes} {
                 width: 100%;
@@ -162,6 +159,10 @@ export const Container = styled.div`
                 align-items: center;
                 justify-content: space-evenly;
             }
+        }
+        ${FlexBox}:nth-child(4) {
+            gap: 10px;
+            flex-direction: column;
         }
         ${Asset} {
             width: 80px;

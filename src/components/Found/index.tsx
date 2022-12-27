@@ -26,7 +26,7 @@ export const Found = (props: iFound) => {
         <Asset src={props.avatar} />
         <Personal>
           <Profile>
-            <Name>{ props.name }</Name>
+            { props.name ? <Name>{ props.name }</Name> : <Name>{ props.username }</Name> }
             <Username>@{ props.username }</Username>
           </Profile>
           <Joined>{ props.joined }</Joined>
@@ -67,7 +67,7 @@ export const Found = (props: iFound) => {
             </Icon>
           )}
           { props.blog && (
-            <Icon>
+            <Icon style={{ cursor: 'pointer' }} onClick={() => { window.open(props.blog, '_blank') }}>
               <FiLink />
               <Text>{ props.blog }</Text>
             </Icon>
