@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-Esta aplicação é uma ferramenta de pesquisa de desenvoldedores inscritos no GitHub. A partir do usuário informado no campo de pesquisa é possível obter um detalhamento do mesmo como projetos desenvolvidos e as respectivas linguagens utilizadas, biografia e etc. , 
+Esta aplicação é uma ferramenta de pesquisa de desenvoldedores inscritos no GitHub. A partir do usuário informado no campo de pesquisa é possível obter um detalhamento do mesmo como projetos desenvolvidos e as respectivas linguagens utilizadas, biografia e etc.
 
 ## 💻 Tecnologias
 
